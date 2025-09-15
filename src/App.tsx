@@ -19,7 +19,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/supercoolscanner" element={<Scanner/>} />
+          <Route path="/supercoolscanner" element={<Scanner />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
