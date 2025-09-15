@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import Scanner from "./pages/Scanner"
 
 const queryClient = new QueryClient();
 //const basename = import.meta.env.BASE_URL.replace(/\/$/, ""); // '/NUSEC/' -> '/NUSEC'
@@ -18,6 +19,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/supercoolscanner" element={<Scanner/>} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
