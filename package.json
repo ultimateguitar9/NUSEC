@@ -4,13 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "react-router dev",
     "build": "react-router build",
-    "build:dev": "vite build --mode development",
+    "build:dev": "react-router build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview",
+    "preview": "react-router serve",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
