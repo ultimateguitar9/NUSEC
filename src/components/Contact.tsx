@@ -14,7 +14,7 @@ const Contact = () => {
             Join <span className="text-primary">NUSEC</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Ready to start your cybersecurity journey? Connect with us and become 
+            Ready to develop your cybersecurity journey? Connect with us and become 
             part of the most dynamic security community on campus.
           </p>
         </div>
@@ -32,10 +32,10 @@ const Contact = () => {
                 General inquiries and membership questions
               </p>
               <a 
-                href="mailto:nusec@university.edu" 
+                href="mailto:nusechusky@gmail.com" 
                 className="text-primary hover:underline font-medium"
               >
-                nusec@university.edu
+                nusechusky@gmail.com
               </a>
             </CardContent>
           </Card>
@@ -55,6 +55,7 @@ const Contact = () => {
                 variant="outline" 
                 size="sm"
                 className="border-primary text-primary hover:bg-primary hover:text-white"
+                href="https://discord.gg/JkYMdTbuDw"
               >
                 Join Server
               </Button>
@@ -70,9 +71,9 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-sm mb-4">
-                Every Thursday at 6:00 PM
+                BiWeekly Wednesday at 6:00 PM
               </p>
-              <span className="text-primary font-medium">Room CS-301</span>
+              <span className="text-primary font-medium">Room 305</span>
             </CardContent>
           </Card>
 
@@ -85,9 +86,9 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-sm mb-4">
-                Computer Science Building
+                Shillman Hall
               </p>
-              <span className="text-primary font-medium">National University</span>
+              <span className="text-primary font-medium">Northeastern Univeristy</span>
             </CardContent>
           </Card>
         </div>
@@ -120,7 +121,7 @@ const Contact = () => {
                 </Button>
               </div>
               <p className="text-muted-foreground text-sm mt-6">
-                <strong className="text-primary">New Member Orientation:</strong> First Thursday of every month
+                <strong className="text-primary">New Member Orientation:</strong> JK, Any meeting! Just come!
               </p>
             </CardContent>
           </Card>

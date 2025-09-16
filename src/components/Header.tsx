@@ -47,12 +47,18 @@ const Header = () => {
               onClick={() => scrollToSection("activities")}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Activities
+              Activities & Calendar
             </button>
             <button
               onClick={() => scrollToSection("contact")}
               className="text-foreground hover:text-primary transition-colors"
             >
+              <button
+              onClick={() => scrollToSection("project")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Projects
+            </button>
               Contact
             </button>
           </nav>
@@ -86,7 +92,7 @@ const Header = () => {
                 onClick={() => scrollToSection("activities")}
                 className="text-left text-foreground hover:text-primary transition-colors"
               >
-                Activities
+                Activities & Calendar
               </button>
               <button
                 onClick={() => scrollToSection("contact")}

@@ -13,10 +13,11 @@ const About = () => {
             About <span className="text-primary">NUSEC</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            The National University Security Club (NUSEC) is a student-led organization 
-            dedicated to fostering cybersecurity awareness, education, and hands-on learning 
-            experiences. We bring together passionate students to explore the fascinating 
-            world of information security.
+            The Northeastern Security Club (NUSEC) is a student-led organization 
+            dedicated to fostering a cybersecurity community & awareness at Northeastern University.
+            We bring together passionate students to explore the fascinating 
+            world of information security while providing opportunities for students. 
+            We focus on professional development, technical workshops, and community events.
           </p>
         </div>
 
@@ -90,14 +91,16 @@ const About = () => {
               </p>
             </div>
             <div>
-              <h4 className="text-lg font-semibold text-primary mb-3">Competitive Teams</h4>
+              <h4 className="text-lg font-semibold text-primary mb-3">Opportunities</h4>
               <p className="text-muted-foreground">
-                Participate in Capture The Flag (CTF) competitions and cybersecurity 
-                challenges against other universities.
+                Connect and participate with competitve Capture The Flag (CTF) competitions,
+                apply and join a cybersecurity scholarship, lead your team in a cybersecurity project,
+                or practice your public speaking and leadership in your own workshop for the club. 
+                Whatever you need, we can guide you to cyber opportunities that will benefit your future. 
               </p>
             </div>
             <div>
-              <h4 className="text-lg font-semibold text-primary mb-3">Mentorship Program</h4>
+              <h4 className="text-lg font-semibold text-primary mb-3">Mentorship Program (Upcoming)</h4>
               <p className="text-muted-foreground">
                 Connect with experienced members and alumni who provide guidance 
                 for your cybersecurity journey.

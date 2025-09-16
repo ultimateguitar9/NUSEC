@@ -37,7 +37,7 @@ const Hero = () => {
               <TerminalText text="Security Club" speed={100} />
             </p>
             <p className="text-lg text-cyber-gray">
-              <TerminalText text="Defending the digital frontier, one byte at a time" speed={30} />
+              <TerminalText text="Growing the security community, one byte at a time" speed={30} />
             </p>
           </div>
 
@@ -47,7 +47,7 @@ const Hero = () => {
               <div className="bg-gradient-card p-4 rounded-full mb-2">
                 <Shield className="w-8 h-8 text-primary" />
               </div>
-              <span className="text-sm text-muted-foreground">Secure</span>
+              <span className="text-sm text-muted-foreground">Professionalism</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="bg-gradient-card p-4 rounded-full mb-2">
