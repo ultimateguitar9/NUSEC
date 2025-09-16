@@ -66,7 +66,7 @@ const fakeData: FakeRecord[] = [
   { apt: "APT-BlackFalcon", category: "Domain", value: "command-center.org" },
   { apt: "APT-RedMantis", category: "IP", value: "10.10.250.17" },
   { apt: "APT-RedMantis", category: "Hash", value: "c81e728d9d4c2f636f067f89cc14862c" },
-  { apt: "APT-Driftwood", category: "Domain", value: "secure-update-cdn.io" }
+  { apt: "APT-Driftwood", category: "Domain", value: "secure-update-cdn.io" },
   { apt: "APT-CrimsonHawk", category: "Hash", value: "6f1ed002ab5595859014ebf0951522d9" },
   { apt: "APT-StoneBear", category: "IP", value: "203.0.113.77" },
   { apt: "APT-FrostSparrow", category: "Domain", value: "login-proxy-services.net" },
