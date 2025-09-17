@@ -18,7 +18,7 @@ export default function HallOfFame() {
   //       Math.floor(Math.random() * 1000).toString()
   //     );
   //   }
-  // }, []);
+ }, []);
 
   return (
     <div className="hofPage">
