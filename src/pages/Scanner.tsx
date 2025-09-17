@@ -144,6 +144,10 @@ const Scanner = () => {
       ) : (
         <p>No matches found.</p>
       )}
+      <a href="/NotEvilEmail.eml" download>
+        Download Email
+      </a>
+
     </div>
   );
 };
