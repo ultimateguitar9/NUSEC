@@ -57,7 +57,7 @@ export default function HallOfFame() {
 
               <h2>NUSEC GOT PHISHED - Phishing Competition!</h2>
               <ol>
-                <li>RESULTS COMING SOON!</li>
+                <li>Timmy loves yippee!</li>
               </ol>
 
               <br />
