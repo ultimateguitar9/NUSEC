@@ -1,7 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useState } from "react";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 
 export default function HallOfFame() {
-  const [refreshHref, setRefreshHref] = useState("#");
   const turbulenceRef = useRef(null as SVGFEturbulenceElement | null);
 
   useEffect(() => {
@@ -9,7 +13,6 @@ export default function HallOfFame() {
     document.title = "NUSEC Hall Of Fame";
 
     // Compute the refresh link once so it doesn't change during re-renders
-    setRefreshHref(`/rankings?q=${Date.now()}`);
 
   //   // Randomize the SVG turbulence seed like the original script
   //   if (turbulenceRef.current) {
@@ -24,7 +27,7 @@ export default function HallOfFame() {
     <div className="hofPage">
       <h1>NUSEC Hall Of Fame</h1>
 
-      <a href={refreshHref}>The Amazing Refresh Button &reg;</a>
+      <a onClick={() => window.prompt("You serious? Just Ctrl+R you lazy.")}>The Amazing Refresh Button &reg;</a>
 
       <br />
       <br />
