@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Scanner from "./pages/Scanner";
 import Test from "./pages/Test";
+import HallOfFame from "./pages/HallOfFame";
 
 const queryClient = new QueryClient();
 //const basename = import.meta.env.BASE_URL.replace(/\/$/, ""); // '/NUSEC/' -> '/NUSEC'
@@ -20,6 +21,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/halloffame" element={<HallOfFame/>} />
           <Route path="/supercoolscanner" element={<Scanner />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/test" element={<Test />} />
