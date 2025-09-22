@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.gm-points {
+  font-size: 2rem;   /* Pick a value between h1 (~2.5rem) and h2 (~2rem) */
+  font-weight: bold;
+  margin: 1rem 0;
+}
