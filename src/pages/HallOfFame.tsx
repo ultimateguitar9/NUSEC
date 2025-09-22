@@ -54,8 +54,7 @@ export default function HallOfFame() {
 
             <td>
               <h2>GM POINTS!</h3>
-<br>
-</br>
+
                <h3>NUSEC JEAPORDY!!</h2>
               <ol>
                 <li>MATRtIX</li>
