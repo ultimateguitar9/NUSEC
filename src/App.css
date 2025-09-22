@@ -42,7 +42,7 @@
 }
 
 .gm-points {
-  font-size: 2rem;   /* Pick a value between h1 (~2.5rem) and h2 (~2rem) */
+  font-size: 2.5rem;   /* Pick a value between h1 (~2.5rem) and h2 (~2rem) */
   font-weight: bold;
   margin: 1rem 0;
 }
