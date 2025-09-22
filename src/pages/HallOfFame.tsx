@@ -55,7 +55,7 @@ export default function HallOfFame() {
  
               
             <td>
-              <h3>GM POINTS!</h3>
+              <h2 class="gm-points">GM POINTS!</h2>
               
               <br />
               <br />
