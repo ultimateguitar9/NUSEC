@@ -41,17 +41,3 @@
   color: #888;
 }
 
-h1 {
-  font-size: 20px; /* normally much bigger */
-  color: blue;
-  font-weight: normal;
-}
-
-h2 {
-  font-size: 40px; /* make h2 look bigger than h1 */
-  color: red;
-}
-
-h3 {
-  text-transform: uppercase;
-}
