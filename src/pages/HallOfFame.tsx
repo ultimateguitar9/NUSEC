@@ -40,6 +40,7 @@ export default function HallOfFame() {
 
               <h3>Bonus 1 - ???</h3>
               <br />
+              <br />
               <ol>
                 <li>Could be you!</li>
               </ol>
