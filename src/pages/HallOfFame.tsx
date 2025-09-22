@@ -39,6 +39,7 @@ export default function HallOfFame() {
               <h2>BONUS!</h2>
 
               <h3>Bonus 1 - ???</h3>
+              <br />
               <ol>
                 <li>Could be you!</li>
               </ol>
@@ -129,13 +130,12 @@ export default function HallOfFame() {
 
         .hofPage h2 {
           font: 18pt Helvetica, Arial, sans-serif;
-          color: #eab83f; /* gold base */
+          color: #eab83f; /* warm gold */
           letter-spacing: -1px;
           font-weight: bold;
           text-shadow: 
-            0 0 5px #ffd700,   /* soft golden glow */
-            0 0 10px #ffbf00,  /* deeper golden glow */
-            0 0 15px #ffae00;  /* stronger highlight */
+            0 1px 2px rgba(0,0,0,0.4),   /* slight shadow for depth */
+            0 0 3px rgba(255, 215, 0, 0.6); /* gentle golden glow */
         }
 
 
