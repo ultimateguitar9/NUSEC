@@ -55,14 +55,13 @@ export default function HallOfFame() {
  
               
             <td>
-              <h2 class="gm-points">GM POINTS!</h2>
+              <h3>GM POINTS!</h23>
               
               <br />
               <br />
               
-               <h2>NUSEC JEAPORDY!!</h2>
-                
-              <h3>MATRIX</h3>
+               <h2>NUSEC JEAPORDY!!</h2> 
+                  <p>MATRIX</p>
                
            
 
