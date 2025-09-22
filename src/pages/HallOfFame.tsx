@@ -58,7 +58,7 @@ export default function HallOfFame() {
               <br />
               <br />
               
-               <h2>1. NUSEC JEAPORDY!! -- MATRIX</h2>h2>
+               <h2>1. NUSEC JEAPORDY!! -- MATRIX</h2>
 
               <br />
               <br />
