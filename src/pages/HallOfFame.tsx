@@ -58,12 +58,24 @@ export default function HallOfFame() {
               <br />
               <br />
               
-               <h2>1. NUSEC JEAPORDY!! -- MATRIX</h2>
-
+            <td>
+              <h3>GM POINTS!</h3>
+              
               <br />
               <br />
               
-              <h2>2. NUSEC GOT PHISHED - Timmy loves yippee!</h2>
+               <h2>NUSEC JEAPORDY!!</h2>
+              <ol>
+                <li>MATRIX</li>
+              </ol>
+
+              <br />
+              <br />
+
+              <h2>NUSEC GOT PHISHED - Phishing Competition!</h2>
+              <ol>
+                <li>Timmy loves yippee!</li>
+              </ol>
     
 
               <br />
