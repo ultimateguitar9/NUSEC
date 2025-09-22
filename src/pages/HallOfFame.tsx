@@ -127,12 +127,17 @@ export default function HallOfFame() {
 
         .hofPage a:hover { color: #eaa87f; }
 
-          .hofPage h2 {
-          font: 18pt Helvetica, Arial, sans-serif; 
-          color: #eab83f;
+        .hofPage h2 {
+          font: 18pt Helvetica, Arial, sans-serif;
+          color: #eab83f; /* gold base */
           letter-spacing: -1px;
           font-weight: bold;
+          text-shadow: 
+            0 0 5px #ffd700,   /* soft golden glow */
+            0 0 10px #ffbf00,  /* deeper golden glow */
+            0 0 15px #ffae00;  /* stronger highlight */
         }
+
 
         .hofPage h3 {
           font: 16pt Helvetica, Arial, sans-serif;
