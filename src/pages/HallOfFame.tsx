@@ -38,7 +38,7 @@ export default function HallOfFame() {
             <td>
               <h3>BONUS!</h3>
 
-              <h2>Bonus 1 - ???</h2>
+              <h3>Bonus 1 - ???</h3>
               <ol>
                 <li>Could be you!</li>
               </ol>
@@ -60,7 +60,7 @@ export default function HallOfFame() {
               <br />
               <br />
               
-               <h2>NUSEC JEAPORDY!!</h2> 
+               <h3>NUSEC JEAPORDY!!</h3> 
                   <p>MATRIX</p>
                
            
@@ -68,7 +68,7 @@ export default function HallOfFame() {
               <br />
               <br />
 
-              <h2>NUSEC GOT PHISHED - Phishing Competition!</h2>
+              <h3>NUSEC GOT PHISHED - Phishing Competition!</h3>
                 <p>Timmy loves yippee!</p>
     
 
@@ -127,7 +127,7 @@ export default function HallOfFame() {
 
         .hofPage a:hover { color: #eaa87f; }
 
-        .hofPage h2 {
+        .hofPage h3 {
           font: 16pt Helvetica, Arial, sans-serif;
           color: #5574a7;
           letter-spacing: -1px;
