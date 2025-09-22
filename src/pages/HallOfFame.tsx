@@ -136,7 +136,7 @@ export default function HallOfFame() {
           text-shadow: 
             0 1px 2px rgba(0,0,0,0.4),   /* slight shadow for depth */
             0 0 3px rgba(255, 215, 0, 0.6); /* gentle golden glow */
-            0 0 8px rgba(255, 223, 100, 0.4);/* subtle shine */
+            0 0 8px rgba(255, 223, 120, 0.5);/* subtle shine */
         }
 
 
