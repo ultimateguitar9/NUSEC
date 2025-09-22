@@ -36,7 +36,7 @@ export default function HallOfFame() {
         <tbody>
           <tr>
             <td>
-              <h3>BONUS!</h3>
+              <h2>BONUS!</h2>
 
               <h3>Bonus 1 - ???</h3>
               <ol>
@@ -55,7 +55,7 @@ export default function HallOfFame() {
  
               
             <td>
-              <h3>GM POINTS!</h3>
+              <h2>GM POINTS!</h2>
               
               <br />
               <br />
@@ -77,7 +77,7 @@ export default function HallOfFame() {
             </td>
 
             <td>
-              <h3>$3CRET$!</h3>
+              <h2>$3CRET$!</h2>
              
             </td>
           </tr>
@@ -126,6 +126,13 @@ export default function HallOfFame() {
         }
 
         .hofPage a:hover { color: #eaa87f; }
+
+          .hofPage h2 {
+          font: 18pt Helvetica, Arial, sans-serif; 
+          color: #eab83f;
+          letter-spacing: -1px;
+          font-weight: bold;
+        }
 
         .hofPage h3 {
           font: 16pt Helvetica, Arial, sans-serif;
