@@ -52,11 +52,7 @@ export default function HallOfFame() {
               <br />
             </td>
 
-            <td>
-              <h2>GM POINTS!</h2>
-              
-              <br />
-              <br />
+ 
               
             <td>
               <h3>GM POINTS!</h3>
