@@ -37,13 +37,10 @@ export default function HallOfFame() {
           <tr>
             <td>
               <h2>BONUS!</h2>
-
+         <br />
               <h3>Bonus 1 - ???</h3>
-              <br />
-              <br />
-              <ol>
-                <li>Could be you!</li>
-              </ol>
+                <p>Could be you!</p>
+         
 
               <br />
               <br />
