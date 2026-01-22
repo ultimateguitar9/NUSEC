@@ -42,8 +42,8 @@ const Contact = () => {
 
           <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
             <CardHeader>
-              <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <MessageSquare className="w-8 h-8 text-white" />
+          <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+             <MessageSquare className="w-8 h-8 text-white" />
               </div>
               <CardTitle className="text-foreground">Discord</CardTitle>
             </CardHeader>
@@ -62,10 +62,18 @@ const Contact = () => {
             </CardContent>
           </Card>
 
-              <CardTitle className="text-foreground">Instagram</CardTitle>                                                            </CardHeader>                                                                                                           <CardContent>                                                                                                             <p className="text-muted-foreground text-sm mb-4">                                                                        Stay updated on events and opportunities!                                                                                      </p>                                                                                                          <Button                                                                                                                   variant="outline"                                                                                                       size="sm"                                                                                                               className="border-primary text-primary hover:bg-primary hover:text-white"
-	      	  href="https://www.instagram.com/nusecurity/">
+           <CardTitle className="text-foreground">Instagram</CardTitle>                                                            <CardHeader>
+	<div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                <MessageSquare className="w-8 h-8 text-white" />
+	   </CardHeader>
+	   <CardContent>                                                                                                             <p className="text-muted-foreground text-sm mb-4">                                                                        Stay updated on events and opportunities!                                                                                      </p>                                                                                                          <Button                                                                                                                   variant="outline"                                                                                                       size="sm"                                                                                                               className="border-primary text-primary hover:bg-primary hover:text-white"
+	      href="https://www.instagram.com/nusecurity/">
 		Follow us!
 		</Button>
+	</CardContent>
+	</Card>
+
+
           <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
             <CardHeader>
               <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
