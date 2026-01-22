@@ -82,19 +82,19 @@ const Activities = () => {
           </h3>
           <div className="grid md:grid-cols-3 gap-6 text-left">
             <div className="border-l-4 border-primary pl-4">
-              <h4 className="font-semibold text-foreground">NUSEC Got Phished!</h4>
-              <p className="text-muted-foreground text-sm">Learn what phishing is and how hackers make them!</p>
-              <span className="text-primary text-xs">Wednesday, 6:00 PM</span>
+              <h4 className="font-semibold text-foreground">OSINT Event!</h4>
+              <p className="text-muted-foreground text-sm">Learn how to use the web like a hacker!</p>
+              <span className="text-primary text-xs">Monday, 6:00 PM</span>
             </div>
             <div className="border-l-4 border-primary pl-4">
-              <h4 className="font-semibold text-foreground">Industry Speaker Series</h4>
-              <p className="text-muted-foreground text-sm">CISO from TechCorp presents</p>
-              <span className="text-primary text-xs">Next Tuesday, 7:00 PM</span>
+              <h4 className="font-semibold text-foreground">Guest Speaker Event</h4>
+              <p className="text-muted-foreground text-sm">Hear from a live guest speaker!</p>
+              <span className="text-primary text-xs">Monday, February 9th, 6:00 PM</span>
             </div>
             <div className="border-l-4 border-primary pl-4">
-              <h4 className="font-semibold text-foreground">Inter-University CTF</h4>
-              <p className="text-muted-foreground text-sm">Team registration now open</p>
-              <span className="text-primary text-xs">Registration due: Next Monday</span>
+              <h4 className="font-semibold text-foreground">Blue vs Red Team 1v1 and E-Board Voting!</h4>
+              <p className="text-muted-foreground text-sm">Watch a live 1v1 hacker showdown and vote on who you want to be on the E-Board!</p>
+              <span className="text-primary text-xs">Monday, February 23rd, 6:00 PM</span>
             </div>
           </div>
         </div>

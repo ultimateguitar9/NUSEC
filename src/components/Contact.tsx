@@ -71,9 +71,9 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-sm mb-4">
-                BiWeekly Wednesday at 6:00 PM
+                BiWeekly Monday at 6:00 PM
               </p>
-              <span className="text-primary font-medium">Room 305</span>
+              <span className="text-primary font-medium">Room 105</span>
             </CardContent>
           </Card>
 
@@ -86,7 +86,7 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-sm mb-4">
-                Shillman Hall
+                Behrakis
               </p>
               <span className="text-primary font-medium">Northeastern Univeristy</span>
             </CardContent>
