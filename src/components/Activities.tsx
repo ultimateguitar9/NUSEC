@@ -93,7 +93,7 @@ const Activities = () => {
             </div>
             <div className="border-l-4 border-primary pl-4">
               <h4 className="font-semibold text-foreground">Blue vs Red Team 1v1 and E-Board Voting!</h4>
-              <p className="text-muted-foreground text-sm">Watch a live 1v1 hacker showdown and vote on who you want to be on the E-Board!</p>
+              <p className="text-muted-foreground text-sm">Watch a live 1v1 hacker showdown and vote on who you want to be on the E-Board next semester!</p>
               <span className="text-primary text-xs">Monday, February 23rd, 6:00 PM</span>
             </div>
           </div>
