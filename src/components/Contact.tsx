@@ -33,7 +33,7 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-sm mb-4">
-                General inquiries and membership questions
+                General inquiries and questions
               </p>
               <a
                 href="mailto:nusechusky@gmail.com"
