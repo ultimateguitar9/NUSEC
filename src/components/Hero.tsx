@@ -30,14 +30,14 @@ const Hero = () => {
           <div className="mb-8">
             <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-4">
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                <GlitchText text="NUSECURITY" intensity="low" />
+                <GlitchText text="The Flag!!" intensity="low" />
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-2">
-              <TerminalText text="Security Club" speed={100} />
+              <TerminalText text="28.02968845564392, -82.82074467963191" speed={100} />
             </p>
             <p className="text-lg text-cyber-gray">
-              <TerminalText text="Growing the security community, one byte at a time" speed={30} />
+              <TerminalText text="I'm just gonna leave this here..." speed={30} />
             </p>
           </div>
 
