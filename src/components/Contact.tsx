@@ -71,7 +71,7 @@ const Contact = () => {
                 </a>
               </Button>
             </CardContent>
-
+	</Card>
           {/* Location */}
           <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
             <CardHeader>
