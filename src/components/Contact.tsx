@@ -72,7 +72,7 @@ const Contact = () => {
               </Button>
             </CardContent>
 	</Card>
-
+	{/* Instagram */}
           <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
             <CardHeader>
               <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
@@ -82,7 +82,7 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-sm mb-4">
-                Stay updated on the latest events and opportunities!
+                Stay updated on our latest events!
               </p>
               <Button
                 asChild
@@ -111,7 +111,7 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-sm mb-4">Room 105</p>
-              <span className="text-primary font-large">
+              <span className="text-primary font-medium">
                 Northeastern University
               </span>
             </CardContent>
@@ -133,22 +133,6 @@ const Contact = () => {
                   speed={20}
                 />
               </p>
-
-              <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-                <Button
-                  size="lg"
-                  className="bg-gradient-primary hover:bg-primary text-white px-8 py-3"
-                >
-                  Attend Next Meeting
-                </Button>
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="border-primary text-primary hover:bg-primary hover:text-white px-8 py-3"
-                >
-                  Follow on Social Media
-                </Button>
-              </div>
 
               <p className="text-muted-foreground text-sm mt-6">
                 <strong className="text-primary">
