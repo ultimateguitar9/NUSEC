@@ -40,13 +40,13 @@ const Header: React.FC = () => {
             <button onClick={() => scrollToSection("contact")} className="text-foreground hover:text-primary transition-colors">Contact</button>
 
             {/* Route navigation */}
-            <button
+	    {/*<button
               type="button"
-	      {/*              onClick={() => navigate("/halloffame")} */}
+	                    onClick={() => navigate("/halloffame")} 
               className="text-foreground hover:text-primary transition-colors"
             >
               HALL OF FAME!!!
-            </button>
+            </button> */}
           </nav>
 
           {/* Mobile Menu Button */}
