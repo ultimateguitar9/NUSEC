@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, MessageSquare, MapPin } from "lucide-react";
-import { Instagram } from "lucide-react";
+import { Instagram, Mail, MessageSquare, MapPin } from "lucide-react";
+import { FaDiscord } from "react-icons/fa";
 import TerminalText from "@/components/animations/TerminalText";
 import BinaryStream from "@/components/animations/BinaryStream";
 
@@ -48,9 +48,13 @@ const Contact = () => {
           {/* Discord */}
           <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
             <CardHeader>
-              <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+	    <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+  		<FaDiscord className="w-8 h-8 text-white" />
+	    </div>
+
+	    {/* <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <MessageSquare className="w-8 h-8 text-white" />
-              </div>
+              </div> */
               <CardTitle className="text-foreground">Discord</CardTitle>
             </CardHeader>
             <CardContent>
