@@ -42,7 +42,7 @@ const Header: React.FC = () => {
             {/* Route navigation */}
             <button
               type="button"
-              onClick={() => navigate("/halloffame")}
+	      {/*              onClick={() => navigate("/halloffame")} */}
               className="text-foreground hover:text-primary transition-colors"
             >
               HALL OF FAME!!!
