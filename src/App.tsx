@@ -8,7 +8,6 @@ import NotFound from "./pages/NotFound";
 import Scanner from "./pages/Scanner";
 import Test from "./pages/Test";
 import HallOfFame from "./pages/HallOfFame";
-import Backup from "./pages/Backup";
 
 const queryClient = new QueryClient();
 //const basename = import.meta.env.BASE_URL.replace(/\/$/, ""); // '/NUSEC/' -> '/NUSEC'
@@ -26,7 +25,6 @@ const App = () => (
           <Route path="/supercoolscanner" element={<Scanner />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/test" element={<Test />} />
-	  <Route path="/backup" elemment={<Backup />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
