@@ -78,10 +78,10 @@ const Contact = () => {
               <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <MapPin className="w-8 h-8 text-white" />
               </div>
-              <CardTitle className="text-foreground">Location</CardTitle>
+              <CardTitle className="text-foreground">Behrakis</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground text-sm mb-4">Behrakis</p>
+              <p className="text-muted-foreground text-sm mb-2">Room 105</p>
               <span className="text-primary font-medium">
                 Northeastern University
               </span>
