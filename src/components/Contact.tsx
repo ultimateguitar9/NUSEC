@@ -72,6 +72,35 @@ const Contact = () => {
               </Button>
             </CardContent>
 	</Card>
+
+          <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
+            <CardHeader>
+              <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                <MessageSquare className="w-8 h-8 text-white" />
+              </div>
+              <CardTitle className="text-foreground">Instagram</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-muted-foreground text-sm mb-4">
+                Stay updated on the latest events and opportunities!
+              </p>
+              <Button
+                asChild
+                variant="outline"
+                size="sm"
+                className="border-primary text-primary hover:bg-primary hover:text-white"
+              >
+                <a
+                  href="https://www.instagram.com/nusecurity/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Follow Us
+                </a>
+              </Button>
+            </CardContent>
+        </Card>
+
           {/* Location */}
           <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
             <CardHeader>
