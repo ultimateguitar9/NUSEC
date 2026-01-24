@@ -24,7 +24,7 @@ const Contact = () => {
         {/* Contact Cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {/* Email */}
-          <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
+          <Card className="bg-gradient-card border-border hover:scale-105 transition-all text-center">
             <CardHeader>
               <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <Mail className="w-8 h-8 text-white" />
@@ -45,7 +45,7 @@ const Contact = () => {
           </Card>
 
           {/* Discord */}
-          <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
+          <Card className="bg-gradient-card border-border hover:scale-105 transition-all text-center">
             <CardHeader>
               <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <MessageSquare className="w-8 h-8 text-white" />
@@ -73,7 +73,7 @@ const Contact = () => {
             </CardContent>
           </Card>
           {/* Instagram */}
-          <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
+          <Card className="bg-gradient-card border-border hover:scale-105 transition-all text-center">
             <CardHeader>
               <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <Instagram className="w-8 h-8 text-white" />
@@ -102,7 +102,7 @@ const Contact = () => {
           </Card>
 
           {/* Location */}
-          <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
+          <Card className="bg-gradient-card border-border hover:scale-105 transition-all text-center">
             <CardHeader>
               <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <MapPin className="w-8 h-8 text-white" />

@@ -49,19 +49,19 @@ const Header: React.FC = () => {
               onClick={() => scrollToSection("activities")}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Activities & Calendar
+              Activities
             </button>
-            <button
+            {/* <button
               onClick={() => scrollToSection("projects")}
               className="text-foreground hover:text-primary transition-colors"
             >
               Projects
-            </button>
+            </button> */}
             <button
               onClick={() => scrollToSection("contact")}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Contact
+              Join
             </button>
 
             {/* Route navigation */}

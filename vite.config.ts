@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => ({
   base: "/", // <-- change to your repo name, or "/" for custom domain / username.github.io
   server: {
     host: "::",
-    port: 8080,
+    port: 3000,
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(
     Boolean,

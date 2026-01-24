@@ -2,8 +2,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Code, Trophy, Users, BookOpen, Wifi, Bug } from "lucide-react";
 import GlitchText from "@/components/animations/GlitchText";
 import CircuitBoard from "@/components/animations/CircuitBoard";
+import { Button } from "./ui/button";
+import { useNavigate } from "react-router-dom";
 
 const Activities = () => {
+  const nav = useNavigate();
+
   const activities = [
     {
       icon: <Code className="w-8 h-8" />,
@@ -73,7 +77,7 @@ const Activities = () => {
           {activities.map((activity, index) => (
             <Card
               key={index}
-              className="bg-gradient-card border-border hover:border-primary transition-all duration-300 hover:scale-105"
+              className="bg-gradient-card border-border  transition-all duration-300 hover:scale-105"
             >
               <CardHeader className="text-center">
                 <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
@@ -95,6 +99,19 @@ const Activities = () => {
           ))}
         </div>
 
+        <div className="bg-gradient-card border border-border rounded-lg p-8 mb-16 text-center">
+          <h3 className="text-2xl font-bold text-foreground mb-4">
+            OSINT Quiz
+          </h3>
+          <Button
+            size="lg"
+            className="bg-gradient-primary hover:bg-primary text-white px-8 py-3 text-lg font-semibold"
+            onClick={() => nav("/osint-quiz")}
+          >
+            Take it here!
+          </Button>
+        </div>
+
         <div className="bg-gradient-card border border-border rounded-lg p-8 text-center">
           <h3 className="text-2xl font-bold text-foreground mb-4">
             Upcoming Events
@@ -105,7 +122,7 @@ const Activities = () => {
               <p className="text-muted-foreground text-sm">
                 Learn how to use the web like a hacker!
               </p>
-              <span className="text-primary text-xs">Monday, 6:00 PM</span>
+              <span className="text-primary text-xs">Today, 6:00 PM</span>
             </div>
             <div className="border-l-4 border-primary pl-4">
               <h4 className="font-semibold text-foreground">

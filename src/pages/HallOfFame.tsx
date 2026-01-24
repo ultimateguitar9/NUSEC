@@ -1,19 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
-import { useState } from "react";
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogDescription,
-  DialogFooter,
-} from "@/components/ui/dialog";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import React, { useEffect, useRef } from "react";
 
 export default function HallOfFame() {
-  const turbulenceRef = useRef(null as SVGFEturbulenceElement | null);
+  const turbulenceRef = useRef(null as SVGFETurbulenceElement | null);
 
   useEffect(() => {
     // Page title (replaces <title>)
