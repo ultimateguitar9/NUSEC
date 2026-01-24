@@ -1,9 +1,7 @@
-
-
 export default function Test() {
-    return (
-        <>
-            <h1 className="items-center justify-center">Hello World!</h1>
-        </>
-    )
+  return (
+    <>
+      <h1 className="items-center justify-center">Hello World!</h1>
+    </>
+  );
 }

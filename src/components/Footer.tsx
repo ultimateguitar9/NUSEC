@@ -9,10 +9,12 @@ const Footer = () => {
             <Shield className="w-6 h-6 text-primary" />
             <div>
               <h3 className="font-bold text-foreground">NUSEC</h3>
-              <p className="text-xs text-muted-foreground">Northeastern University Security Club</p>
+              <p className="text-xs text-muted-foreground">
+                Northeastern University Security Club
+              </p>
             </div>
           </div>
-          
+
           <div className="text-center md:text-right">
             <p className="text-muted-foreground text-sm">
               © 2025 NUSEC. All rights reserved.

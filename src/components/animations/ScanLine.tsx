@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 interface ScanLineProps {
   className?: string;
@@ -6,7 +6,11 @@ interface ScanLineProps {
   color?: string;
 }
 
-const ScanLine = ({ className = '', duration = 3000, color = 'hsl(270, 95%, 60%)' }: ScanLineProps) => {
+const ScanLine = ({
+  className = "",
+  duration = 3000,
+  color = "hsl(270, 95%, 60%)",
+}: ScanLineProps) => {
   const [isScanning, setIsScanning] = useState(false);
 
   useEffect(() => {
@@ -28,12 +32,12 @@ const ScanLine = ({ className = '', duration = 3000, color = 'hsl(270, 95%, 60%)
     <div className={`relative overflow-hidden ${className}`}>
       <div
         className={`absolute inset-0 transition-transform duration-3000 ease-linear ${
-          isScanning ? 'translate-y-full' : '-translate-y-full'
+          isScanning ? "translate-y-full" : "-translate-y-full"
         }`}
         style={{
           background: `linear-gradient(to bottom, transparent 0%, ${color}40 45%, ${color} 50%, ${color}40 55%, transparent 100%)`,
-          height: '200%',
-          transform: isScanning ? 'translateY(0%)' : 'translateY(-100%)',
+          height: "200%",
+          transform: isScanning ? "translateY(0%)" : "translateY(-100%)",
         }}
       />
     </div>

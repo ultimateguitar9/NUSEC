@@ -1,6 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useState } from "react";
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from "@/components/ui/dialog";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+  DialogFooter,
+} from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -14,20 +21,22 @@ export default function HallOfFame() {
 
     // Compute the refresh link once so it doesn't change during re-renders
 
-  //   // Randomize the SVG turbulence seed like the original script
-  //   if (turbulenceRef.current) {
-  //     turbulenceRef.current.setAttribute(
-  //       "seed",
-  //       Math.floor(Math.random() * 1000).toString()
-  //     );
-  //   }
- }, []);
+    //   // Randomize the SVG turbulence seed like the original script
+    //   if (turbulenceRef.current) {
+    //     turbulenceRef.current.setAttribute(
+    //       "seed",
+    //       Math.floor(Math.random() * 1000).toString()
+    //     );
+    //   }
+  }, []);
 
   return (
     <div className="hofPage">
       <h1>NUSEC Hall Of Fame</h1>
 
-      <a onClick={() => window.prompt("You serious? Just Ctrl+R you lazy.")}>The Amazing Refresh Button &reg;</a>
+      <a onClick={() => window.prompt("You serious? Just Ctrl+R you lazy.")}>
+        The Amazing Refresh Button &reg;
+      </a>
 
       <br />
       <br />
@@ -37,39 +46,31 @@ export default function HallOfFame() {
           <tr>
             <td>
               <h2>BONUS!</h2>
-         <br />
+              <br />
               <h3>Bonus 1 - ???</h3>
-                <p>Could be you!</p>
-         
+              <p>Could be you!</p>
 
               <br />
               <br />
-
-              
 
               <br />
               <br />
             </td>
 
- 
-              
             <td>
               <h2>GM POINTS!</h2>
-              
+
               <br />
               <br />
-              
-               <h3>NUSEC JEAPORDY!!</h3> 
-                  <p>MATRIX</p>
-               
-           
+
+              <h3>NUSEC JEAPORDY!!</h3>
+              <p>MATRIX</p>
 
               <br />
               <br />
 
               <h3>NUSEC GOT PHISHED - Phishing Competition!</h3>
-                <p>Timmy loves yippee!</p>
-    
+              <p>Timmy loves yippee!</p>
 
               <br />
               <br />
@@ -77,7 +78,6 @@ export default function HallOfFame() {
 
             <td>
               <h2>$3CRET$!</h2>
-             
             </td>
           </tr>
         </tbody>

@@ -13,11 +13,12 @@ const About = () => {
             About <span className="text-primary">NUSEC</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            The Northeastern Security Club (NUSEC) is a student-led organization 
-            dedicated to fostering a cybersecurity community & awareness at Northeastern University.
-            We bring together passionate students to explore the fascinating 
-            world of information security while providing opportunities for students. 
-            We focus on professional development, technical workshops, and community events.
+            The Northeastern Security Club (NUSEC) is a student-led organization
+            dedicated to fostering a cybersecurity community & awareness at
+            Northeastern University. We bring together passionate students to
+            explore the fascinating world of information security while
+            providing opportunities for students. We focus on professional
+            development, technical workshops, and community events.
           </p>
         </div>
 
@@ -32,8 +33,9 @@ const About = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-center">
-                To create a collaborative environment where students can learn, practice, 
-                and excel in cybersecurity while building a strong professional network.
+                To create a collaborative environment where students can learn,
+                practice, and excel in cybersecurity while building a strong
+                professional network.
               </p>
             </CardContent>
           </Card>
@@ -48,8 +50,9 @@ const About = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-center">
-                To be the premier cybersecurity community on campus, producing skilled 
-                professionals who will shape the future of digital security.
+                To be the premier cybersecurity community on campus, producing
+                skilled professionals who will shape the future of digital
+                security.
               </p>
             </CardContent>
           </Card>
@@ -64,8 +67,8 @@ const About = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-center">
-                Integrity, collaboration, continuous learning, and ethical hacking practices 
-                guide everything we do as a community.
+                Integrity, collaboration, continuous learning, and ethical
+                hacking practices guide everything we do as a community.
               </p>
             </CardContent>
           </Card>
@@ -77,32 +80,43 @@ const About = () => {
           </h3>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h4 className="text-lg font-semibold text-primary mb-3">Hands-on Learning</h4>
+              <h4 className="text-lg font-semibold text-primary mb-3">
+                Hands-on Learning
+              </h4>
               <p className="text-muted-foreground">
-                We believe in learning by doing. Our workshops and challenges provide 
-                real-world experience with the latest security tools and techniques.
+                We believe in learning by doing. Our workshops and challenges
+                provide real-world experience with the latest security tools and
+                techniques.
               </p>
             </div>
             <div>
-              <h4 className="text-lg font-semibold text-primary mb-3">Industry Connections</h4>
+              <h4 className="text-lg font-semibold text-primary mb-3">
+                Industry Connections
+              </h4>
               <p className="text-muted-foreground">
-                Regular guest speakers from top cybersecurity firms provide insights 
-                into career paths and industry trends.
+                Regular guest speakers from top cybersecurity firms provide
+                insights into career paths and industry trends.
               </p>
             </div>
             <div>
-              <h4 className="text-lg font-semibold text-primary mb-3">Opportunities</h4>
+              <h4 className="text-lg font-semibold text-primary mb-3">
+                Opportunities
+              </h4>
               <p className="text-muted-foreground">
-                Connect and participate with competitve Capture The Flag (CTF) competitions,
-                apply and join a cybersecurity scholarship, lead your team in a cybersecurity project,
-                or practice your public speaking and leadership in your own workshop for the club. 
-                Whatever you need, we can guide you to cyber opportunities that will benefit your future. 
+                Connect and participate with competitve Capture The Flag (CTF)
+                competitions, apply and join a cybersecurity scholarship, lead
+                your team in a cybersecurity project, or practice your public
+                speaking and leadership in your own workshop for the club.
+                Whatever you need, we can guide you to cyber opportunities that
+                will benefit your future.
               </p>
             </div>
             <div>
-              <h4 className="text-lg font-semibold text-primary mb-3">Mentorship Program (Upcoming)</h4>
+              <h4 className="text-lg font-semibold text-primary mb-3">
+                Mentorship Program (Upcoming)
+              </h4>
               <p className="text-muted-foreground">
-                Connect with experienced members and alumni who provide guidance 
+                Connect with experienced members and alumni who provide guidance
                 for your cybersecurity journey.
               </p>
             </div>

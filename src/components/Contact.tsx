@@ -47,10 +47,9 @@ const Contact = () => {
           {/* Discord */}
           <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
             <CardHeader>
-
-	    <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+              <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <MessageSquare className="w-8 h-8 text-white" />
-              </div> 
+              </div>
               <CardTitle className="text-foreground">Discord</CardTitle>
             </CardHeader>
             <CardContent>
@@ -72,14 +71,14 @@ const Contact = () => {
                 </a>
               </Button>
             </CardContent>
-	</Card>
-	{/* Instagram */}
+          </Card>
+          {/* Instagram */}
           <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
             <CardHeader>
-	    <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-  		<Instagram className="w-8 h-8 text-white" />
-	    </div>
-	    <CardTitle className="text-foreground">Instagram</CardTitle>
+              <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                <Instagram className="w-8 h-8 text-white" />
+              </div>
+              <CardTitle className="text-foreground">Instagram</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground text-sm mb-4">
@@ -100,7 +99,7 @@ const Contact = () => {
                 </a>
               </Button>
             </CardContent>
-        </Card>
+          </Card>
 
           {/* Location */}
           <Card className="bg-gradient-card border-border hover:border-primary transition-colors text-center">
@@ -150,4 +149,3 @@ const Contact = () => {
 };
 
 export default Contact;
-

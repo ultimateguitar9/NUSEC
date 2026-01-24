@@ -12,7 +12,6 @@ import HallOfFame from "./pages/HallOfFame";
 const queryClient = new QueryClient();
 //const basename = import.meta.env.BASE_URL.replace(/\/$/, ""); // '/NUSEC/' -> '/NUSEC'
 
-
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
@@ -21,7 +20,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-	  {/* <Route path="/halloffame" element={<HallOfFame/>} /> */}
+          {/* <Route path="/halloffame" element={<HallOfFame/>} /> */}
           <Route path="/supercoolscanner" element={<Scanner />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/test" element={<Test />} />

@@ -1,17 +1,17 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
 interface MatrixRainProps {
   className?: string;
 }
 
-const MatrixRain = ({ className = '' }: MatrixRainProps) => {
+const MatrixRain = ({ className = "" }: MatrixRainProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
     // Set canvas size
@@ -19,12 +19,15 @@ const MatrixRain = ({ className = '' }: MatrixRainProps) => {
       canvas.width = canvas.offsetWidth;
       canvas.height = canvas.offsetHeight;
     };
-    
+
     resizeCanvas();
-    window.addEventListener('resize', resizeCanvas);
+    window.addEventListener("resize", resizeCanvas);
 
     // Matrix characters - mix of letters, numbers, and symbols
-    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*(){}[]|\\:;"<>,.?/~`'.split('');
+    const chars =
+      'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*(){}[]|\\:;"<>,.?/~`'.split(
+        "",
+      );
     const fontSize = 14;
     const columns = Math.floor(canvas.width / fontSize);
     const drops: number[] = [];
@@ -36,11 +39,11 @@ const MatrixRain = ({ className = '' }: MatrixRainProps) => {
 
     const draw = () => {
       // Black background with slight transparency for trail effect
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+      ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       // Purple text
-      ctx.fillStyle = 'hsl(270, 95%, 60%)';
+      ctx.fillStyle = "hsl(270, 95%, 60%)";
       ctx.font = `${fontSize}px monospace`;
 
       for (let i = 0; i < drops.length; i++) {
@@ -63,7 +66,7 @@ const MatrixRain = ({ className = '' }: MatrixRainProps) => {
 
     return () => {
       clearInterval(interval);
-      window.removeEventListener('resize', resizeCanvas);
+      window.removeEventListener("resize", resizeCanvas);
     };
   }, []);
 
@@ -71,7 +74,7 @@ const MatrixRain = ({ className = '' }: MatrixRainProps) => {
     <canvas
       ref={canvasRef}
       className={`pointer-events-none ${className}`}
-      style={{ background: 'transparent' }}
+      style={{ background: "transparent" }}
     />
   );
 };

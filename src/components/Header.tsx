@@ -33,14 +33,39 @@ const Header: React.FC = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <button onClick={() => scrollToSection("home")} className="text-foreground hover:text-primary transition-colors">Home</button>
-            <button onClick={() => scrollToSection("about")} className="text-foreground hover:text-primary transition-colors">About</button>
-            <button onClick={() => scrollToSection("activities")} className="text-foreground hover:text-primary transition-colors">Activities & Calendar</button>
-            <button onClick={() => scrollToSection("projects")} className="text-foreground hover:text-primary transition-colors">Projects</button>
-            <button onClick={() => scrollToSection("contact")} className="text-foreground hover:text-primary transition-colors">Contact</button>
+            <button
+              onClick={() => scrollToSection("home")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Home
+            </button>
+            <button
+              onClick={() => scrollToSection("about")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              About
+            </button>
+            <button
+              onClick={() => scrollToSection("activities")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Activities & Calendar
+            </button>
+            <button
+              onClick={() => scrollToSection("projects")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Projects
+            </button>
+            <button
+              onClick={() => scrollToSection("contact")}
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Contact
+            </button>
 
             {/* Route navigation */}
-	    {/*<button
+            {/*<button
               type="button"
 	                    onClick={() => navigate("/halloffame")} 
               className="text-foreground hover:text-primary transition-colors"
@@ -50,7 +75,10 @@ const Header: React.FC = () => {
           </nav>
 
           {/* Mobile Menu Button */}
-          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden text-foreground">
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="md:hidden text-foreground"
+          >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
@@ -59,14 +87,42 @@ const Header: React.FC = () => {
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 border-t border-border pt-4">
             <div className="flex flex-col space-y-4">
-              <button onClick={() => scrollToSection("home")} className="text-left text-foreground hover:text-primary transition-colors">Home</button>
-              <button onClick={() => scrollToSection("about")} className="text-left text-foreground hover:text-primary transition-colors">About</button>
-              <button onClick={() => scrollToSection("activities")} className="text-left text-foreground hover:text-primary transition-colors">Activities & Calendar</button>
-              <button onClick={() => scrollToSection("projects")} className="text-left text-foreground hover:text-primary transition-colors">Projects</button>
-              <button onClick={() => scrollToSection("contact")} className="text-left text-foreground hover:text-primary transition-colors">Contact</button>
+              <button
+                onClick={() => scrollToSection("home")}
+                className="text-left text-foreground hover:text-primary transition-colors"
+              >
+                Home
+              </button>
+              <button
+                onClick={() => scrollToSection("about")}
+                className="text-left text-foreground hover:text-primary transition-colors"
+              >
+                About
+              </button>
+              <button
+                onClick={() => scrollToSection("activities")}
+                className="text-left text-foreground hover:text-primary transition-colors"
+              >
+                Activities & Calendar
+              </button>
+              <button
+                onClick={() => scrollToSection("projects")}
+                className="text-left text-foreground hover:text-primary transition-colors"
+              >
+                Projects
+              </button>
+              <button
+                onClick={() => scrollToSection("contact")}
+                className="text-left text-foreground hover:text-primary transition-colors"
+              >
+                Contact
+              </button>
               <button
                 type="button"
-                onClick={() => { setIsMenuOpen(false); navigate("/halloffame"); }}
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  navigate("/halloffame");
+                }}
                 className="text-left text-foreground hover:text-primary transition-colors"
               >
                 HALL OF FAME!!!
