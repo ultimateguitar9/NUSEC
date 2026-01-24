@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 
-
 export default function HallOfFame() {
   const turbulenceRef = useRef(null as SVGFETurbulenceElement | null);
 
