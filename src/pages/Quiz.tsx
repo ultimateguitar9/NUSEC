@@ -13,7 +13,7 @@ export default function Quiz() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState("");
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
-  const [showHint, setShowHint] = useState(false);
+//  const [showHint, setShowHint] = useState(false);
   const [isComplete, setIsComplete] = useState(false);
   const [completedQuestions, setCompletedQuestions] = useState<Set<number>>(
     new Set(),
@@ -33,7 +33,7 @@ export default function Quiz() {
 
     if (normalizedUserAnswer === normalizedCorrectAnswer) {
       setIsCorrect(true);
-      setShowHint(false);
+     // setShowHint(false);
       setCompletedQuestions((prev) => new Set(prev).add(currentQuestionIndex));
 
       // Move to next question or complete quiz
@@ -49,7 +49,7 @@ export default function Quiz() {
       }, 1000);
     } else {
       setIsCorrect(false);
-      setShowHint(true);
+    //  setShowHint(true);
     }
   };
 
@@ -58,7 +58,7 @@ export default function Quiz() {
       setCurrentQuestionIndex(currentQuestionIndex - 1);
       setUserAnswer("");
       setIsCorrect(null);
-      setShowHint(false);
+    //  setShowHint(false);
       setIsRevisiting(true);
     }
   };
@@ -71,7 +71,7 @@ export default function Quiz() {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
       setUserAnswer("");
       setIsCorrect(null);
-      setShowHint(false);
+   //   setShowHint(false);
       setIsRevisiting(true);
     }
   };
@@ -164,6 +164,7 @@ export default function Quiz() {
             )}
 
             {/* Hint */}
+            {/*
             {showHint && currentQuestion.hint && (
               <motion.p
                 initial={{ opacity: 0, y: -10 }}
@@ -172,7 +173,7 @@ export default function Quiz() {
               >
                 💡 Hint: {currentQuestion.hint}
               </motion.p>
-            )}
+            )} */}
 
             {/* Answer input form */}
             <form onSubmit={handleSubmit}>
