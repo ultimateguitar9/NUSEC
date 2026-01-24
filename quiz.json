@@ -4,9 +4,8 @@
     "answer": "2025-09-13"
   },
   {
-    "question": "There was a hidden flag stored in a yearly backup that was later deleted from the NUSEC site. It was stored in nusec.club/backup.html but for some reason we can't see it anymore",
+    "question": "there Was a hidden flAg stored in a Yearly Backup that wAs later deleted from the nuseC site. It was stored in nusec.club/bacKup.html but for some reason we can't see it anymore",
     "answer": "28.02968845564392, -82.82074467963191",
-    "hint": "Read the bold characters in the question"
   },
   {
     "question": "Hmmmm. These look like coordinates. Can you figure out where these coordinates are located?",
@@ -15,12 +14,10 @@
   {
     "question": "Great job! It looks like this person created a username with the name of the Island(first word) + the birth year of one of our E-board members. Can you find the Social Media platform this person used?",
     "answer": "Instagram",
-    "hint": "The birth year is 2005"
   },
   {
     "question": "What country was the posted photo taken in?",
     "answer": "Norway",
-    "hint": "Reverse Image Search"
   },
   {
     "question": "What about the photo on his story?",
@@ -33,6 +30,5 @@
   {
     "question": "What's the most dangerous CVE associated with this IP address in 2025?",
     "answer": "CVE-2025-23048",
-    "hint": "Shodan"
   }
 ]
