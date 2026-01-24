@@ -73,7 +73,7 @@ const Activities = () => {
           {activities.map((activity, index) => (
             <Card
               key={index}
-              className="bg-gradient-card border-border hover:border-primary transition-all duration-300 hover:scale-105"
+              className="bg-gradient-card border-border  transition-all duration-300 hover:scale-105"
             >
               <CardHeader className="text-center">
                 <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">

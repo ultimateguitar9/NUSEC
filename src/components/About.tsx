@@ -23,7 +23,7 @@ const About = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          <Card className="bg-gradient-card border-border hover:border-primary transition-colors relative overflow-hidden">
+          <Card className="bg-gradient-card border-border transition-all relative overflow-hidden hover:scale-105">
             <ScanLine className="absolute inset-0" duration={4000} />
             <CardHeader className="text-center relative z-10">
               <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
@@ -40,7 +40,7 @@ const About = () => {
             </CardContent>
           </Card>
 
-          <Card className="bg-gradient-card border-border hover:border-primary transition-colors relative overflow-hidden">
+          <Card className="bg-gradient-card border-border transition-all relative overflow-hidden hover:scale-105">
             <ScanLine className="absolute inset-0" duration={5000} />
             <CardHeader className="text-center relative z-10">
               <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
@@ -57,7 +57,7 @@ const About = () => {
             </CardContent>
           </Card>
 
-          <Card className="bg-gradient-card border-border hover:border-primary transition-colors relative overflow-hidden">
+          <Card className="bg-gradient-card border-border transition-all relative overflow-hidden hover:scale-105">
             <ScanLine className="absolute inset-0" duration={3500} />
             <CardHeader className="text-center relative z-10">
               <div className="bg-gradient-primary p-3 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
